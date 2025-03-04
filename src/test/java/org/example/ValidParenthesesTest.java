@@ -23,7 +23,7 @@ class ValidParenthesesTest {
         assertTrue(vp.isValid(""));
     }
 
-    //test case that return false for just single brackets
+    //test case that test single brackets open and close brackets only
     @Test
     public void singleBracket(){
         ValidParentheses vp = new ValidParentheses();
