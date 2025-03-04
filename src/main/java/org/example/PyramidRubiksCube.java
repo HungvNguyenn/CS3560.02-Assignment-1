@@ -44,7 +44,7 @@ public class PyramidRubiksCube {
     }
 
     private void initializeFaces(){
-        Color[] colors = {Color.Red, Color.Green, Color.Blue, Color.Yellow};
+        Color[] colors = Color.values();
 
         //assigning each face a color
         for(int i = 0; i < faces.length; i++){
