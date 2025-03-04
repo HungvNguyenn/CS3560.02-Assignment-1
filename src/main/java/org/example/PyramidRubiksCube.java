@@ -28,10 +28,10 @@ class Face{
 
 }
 
-public class PyramidRubikCube {
+public class PyramidRubiksCube {
     private Face[] faces;
 
-    public PyramidRubikCube(){
+    public PyramidRubiksCube(){
         //A pyramid rubik cube has 4 faces
         faces = new Face[4];
         initializeFaces();
@@ -116,7 +116,7 @@ public class PyramidRubikCube {
 
 
     public static void main(String[] args) {
-        PyramidRubikCube cube = new PyramidRubikCube();
+        PyramidRubiksCube cube = new PyramidRubiksCube();
         System.out.println(cube.validateCube());
     }
 }
