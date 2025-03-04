@@ -89,6 +89,14 @@ public class PyramidRubiksCube {
 
 
     public boolean validateCube(){
+
+        //This will make sure that we have 9 tiles in each face
+        for(Face face : faces){
+            if (face.getTiles().length != 9){
+                return false;
+            }
+        }
+        
         //created a counter to count each color
         int redCount = 0, greenCount = 0, blueCount = 0, yellowCount = 0;
 
