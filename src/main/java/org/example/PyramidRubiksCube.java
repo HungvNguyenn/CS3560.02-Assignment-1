@@ -125,6 +125,7 @@ public class PyramidRubiksCube {
 
     public static void main(String[] args) {
         PyramidRubiksCube cube = new PyramidRubiksCube();
-        System.out.println(cube.validateCube());
+        System.out.println("The cube is initialized");
+        System.out.println("is valid? :" + cube.validateCube());
     }
 }
